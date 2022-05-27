@@ -1,11 +1,32 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "James",
-            "email": "Jamestest@gmail.com",
-            "phone": 3434323,
-            "address": "US"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "James",
+      "email": "Jamestest@gmail.com",
+      "phone": 3434323,
+      "address": "US"
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "phone": "9033733210",
+      "address": "test",
+      "id": 3
+    },
+    {
+      "name": "Burger King",
+      "email": "thor@gmail.com",
+      "phone": "23",
+      "address": "fdasfda",
+      "id": 4
+    },
+    {
+      "name": "El Torro",
+      "email": "fd@test.com",
+      "phone": "34",
+      "address": "fdasfda",
+      "id": 7
+    }
+  ]
 }
