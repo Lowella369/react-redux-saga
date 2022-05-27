@@ -2,9 +2,9 @@
   "users": [
     {
       "id": 1,
-      "name": "James",
+      "name": "James tet",
       "email": "Jamestest@gmail.com",
-      "phone": 3434323,
+      "phone": "234",
       "address": "US"
     },
     {
@@ -27,6 +27,20 @@
       "phone": "34",
       "address": "fdasfda",
       "id": 7
+    },
+    {
+      "name": " Lucy",
+      "email": "lucy@gmail.com",
+      "phone": "34454",
+      "address": "US",
+      "id": 8
+    },
+    {
+      "name": " Shiloh",
+      "email": "tees@m.com",
+      "phone": "344",
+      "address": "Italy",
+      "id": 9
     }
   ]
 }

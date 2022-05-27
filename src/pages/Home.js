@@ -7,10 +7,20 @@ import {toast} from "react-toastify"
 
 const Home = () => {
   const dispatch = useDispatch()
-  const {users} = useSelector((state) => state.data)
+  const {users, loading, error} = useSelector((state) => state.data)
   useEffect(() => {
     dispatch(loadUsersStart())
   }, [])
+
+  //useEffect(() => error && toast.error(error), [error])
+
+  if(loading) {
+    return (
+      <MDBSpinner style={{marginTop: "150px"}} role="status">
+        <span className='visually-hidden'>Loading...</span>
+      </MDBSpinner>
+    )
+  }
   
   const handleDelete = (id) => {
     if(window.confirm("Are you sure you want to delete this user?")) {
